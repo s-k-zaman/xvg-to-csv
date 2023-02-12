@@ -28,7 +28,7 @@ python xvg-to-csv.py -xvg ./yourFilename.xvg -csv ./outputFileName.csv
 ```
 
 -d or D `optional` :digits after decimal point [default: 7]
-- following example shows: to change upto 3 digits after decimal point.
+- following example shows to get upto 3 digits after decimal point.
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -d 3
 ```
