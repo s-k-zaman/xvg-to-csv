@@ -17,33 +17,18 @@ pip install numpy argparse
 python xvg-to-csv.py -h
 ```
 
-
 -xvg or XVG :location/to/xvgFile/Name.xvg [default: test.xvg]
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg
 ```
-	_or_
-```sh
-python xvg-to-csv.py XVG ./yourFilename.xvg
-```
 
-
--csv or CSV :location/to/save/csvFile/Name.csv [optional, default: xvg file location]
+-csv or CSV `optional` :location/to/save/csvFile/Name.csv [default: xvg file location]
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -csv ./outputFileName.csv
 ```
-	_or_
-```sh
-python xvg-to-csv.py XVG ./yourFilename.xvg CSV ./outputFileName.csv
-```
 
-
--d or D :digits after decimal point [optional, default: 7]
+-d or D `optional` :digits after decimal point [default: 7]
 following example shows: to change upto 3 digits after decimal point.
-```sh
-python xvg-to-csv.py -xvg ./yourFilename.xvg D 3
-```
-	_or_
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -d 3
 ```
