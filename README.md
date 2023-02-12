@@ -18,7 +18,7 @@ python xvg-to-csv.py [...arguments]
 
 ### arguments:
 
-`-h or --help  :Shows all the options`
+-h or --help  :Shows all the options
 ```sh
 python xvg-to-csv.py -h
 ```
