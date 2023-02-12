@@ -23,30 +23,30 @@ python xvg-to-csv.py [...arguments]
 python xvg-to-csv.py -h
 ```
 
-`-xvg or XVG location/to/xvgFile/Name.xvg [default: test.xvg]`
+-xvg or XVG location/to/xvgFile/Name.xvg [default: test.xvg]
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg
 ```
-or
+_or_
 ```sh
 python xvg-to-csv.py XVG ./yourFilename.xvg
 ```
 
-`-csv or CSV    location/to/save/csvFile/Name.csv [optional, default: xvg file location]`
+-csv or CSV    location/to/save/csvFile/Name.csv [optional, default: xvg file location]
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -csv ./outputFileName.csv
 ```
-or
+_or_
 ```sh
 python xvg-to-csv.py XVG ./yourFilename.xvg CSV ./outputFileName.csv
 ```
 
-`-d or D        digits after decimal point [optional, default: 7]`
+-d or D        digits after decimal point [optional, default: 7]
 following example shows: to change upto 3 digits after decimal point.
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg D 3
 ```
-or
+_or_
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -d 3
 ```
