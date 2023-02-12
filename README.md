@@ -1,17 +1,15 @@
 ## Information
 This script converts a XVG(gromacs output file) to a CSV file.
-- currently work for xvg file having x-axis and y-axis.
+- `NOTE` currently works for xvg file having x-axis and y-axis.
 
 ## Prerequisites
-Prerequistes are `numpy` and `argparse` libraries.
+You need to install `numpy` and `argparse` libraries.
 ```sh
 pip install numpy argparse
 ```
 
 ## Usage
-```sh
-python xvg-to-csv.py [...arguments]
-```
+`python xvg-to-csv.py [...arguments]`
 
 ### arguments:
 -h or --help :Shows all the options
@@ -24,7 +22,7 @@ python xvg-to-csv.py -h
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg
 ```
-_or_
+	_or_
 ```sh
 python xvg-to-csv.py XVG ./yourFilename.xvg
 ```
@@ -34,7 +32,7 @@ python xvg-to-csv.py XVG ./yourFilename.xvg
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -csv ./outputFileName.csv
 ```
-_or_
+	_or_
 ```sh
 python xvg-to-csv.py XVG ./yourFilename.xvg CSV ./outputFileName.csv
 ```
@@ -45,7 +43,7 @@ following example shows: to change upto 3 digits after decimal point.
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg D 3
 ```
-_or_
+	_or_
 ```sh
 python xvg-to-csv.py -xvg ./yourFilename.xvg -d 3
 ```
